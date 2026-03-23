@@ -177,6 +177,35 @@ body {
 
 /* --------- Media queries */
 
+/* --------- Media queries - Tablet */
+
+@media (max-width: 768px) {
+    .controls-area {
+        width: 100%;
+    }
+
+    .btn--big {
+        margin: 0 15px;
+        border: 7px solid;
+        width: 75px;
+        height: 75px;
+        font-size: 2.2rem;
+    }
+
+    .btn--big::after {
+        font-size: 0.75rem;
+        left: -0.6rem;
+    }
+
+    .question-area {
+        padding: 20px 0;
+        width: 80%;
+    }
+
+    .score-area {
+        width: 80%;
+    }
+}
 @media (max-width: 414px) {
     .controls-area {
         width: 100%;
